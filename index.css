@@ -1,0 +1,80 @@
+body {
+  /* background-position: right 35% top 30%; */
+  background-repeat: no-repeat;
+  background-origin: initial;
+  font-family: "Supermercado One", cursive;
+  color: white;
+  min-height: 110%;
+  /* background-size: 100%; */
+}
+html {
+  background-image: url(".//img/1571304.jpg");
+  background-size: cover;
+  -moz-background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: initial;
+}
+h1 {
+  margin-left: 2%;
+}
+h2 {
+  margin-right: 5%;
+  text-align: right;
+  font-weight: bolder;
+  font-size: 52px;
+  font-family: "Supermercado One", cursive;
+}
+
+a {
+  list-style: none;
+  color: aliceblue;
+  text-decoration: none;
+}
+li {
+  padding-bottom: 2%;
+  list-style: none;
+}
+strong {
+  color: #e83a14;
+}
+button {
+  background: #630606;
+  background-image: -webkit-linear-gradient(top, #630606, #6d95a1);
+  background-image: -moz-linear-gradient(top, #630606, #6d95a1);
+  background-image: -ms-linear-gradient(top, #630606, #6d95a1);
+  background-image: -o-linear-gradient(top, #630606, #6d95a1);
+  background-image: linear-gradient(to bottom, #630606, #6d95a1);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 5px 3px 3px #666666;
+  font-family: Arial;
+  color: #f0eded;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #e83a14;
+  background-image: -webkit-linear-gradient(top, #e83a14, #890f0d);
+  background-image: -moz-linear-gradient(top, #e83a14, #890f0d);
+  background-image: -ms-linear-gradient(top, #e83a14, #890f0d);
+  background-image: -o-linear-gradient(top, #e83a14, #890f0d);
+  background-image: linear-gradient(to bottom, #e83a14, #890f0d);
+  text-decoration: none;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+aside {
+  padding-left: 5%;
+  color: #e83a14;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.strong {
+  color: #f0eded;
+}
